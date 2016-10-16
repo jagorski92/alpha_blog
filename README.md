@@ -1,1 +1,5 @@
-This is the repository for the first alpha_Blog app of the complete ruby on rails developer course on Udemy. 
+Validations for User class:
+    - username must be present and unique
+    - email must be present and unique
+    -validate email format using regex
+    
