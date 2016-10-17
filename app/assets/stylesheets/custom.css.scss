@@ -63,6 +63,12 @@ $navbar-default-bg: black;
     margin-left:15px;
 }
 
+//Index Page: username & timestamps
+.article-meta-details {
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
+}
+
 // Show article page
 .article-actions {
     border-top: 1px solid #eaeaea;
@@ -83,3 +89,4 @@ $navbar-default-bg: black;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+

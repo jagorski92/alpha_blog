@@ -1,5 +1,7 @@
-<h2>Title: <%=@article.title %></h2>
-<div class="well col-xs-8 col-xs-8-offset-2 body">
+<div>
+<h2>Title: <%=@article.title %></h2> 
+<p><%= @article.user.username %></p>
+</div>
     <h4 class="center description"><strong>Description:</strong></h4>
     <hr>
     <%= simple_format(@article.description) %>
