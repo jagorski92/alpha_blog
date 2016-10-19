@@ -20,7 +20,7 @@ before_action :find_article, only: [:show, :destroy, :edit, :update]
     end 
 
     def show
-        
+
     end 
     
     def destroy
